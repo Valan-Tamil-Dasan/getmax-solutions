@@ -22,6 +22,7 @@ const Hero = () => {
 
 
   useEffect(()=>{
+
       const background = boxRef.current;
       const card = cardRef.current;
 
@@ -46,7 +47,6 @@ const Hero = () => {
         end: 'bottom top',
         pin: background,
         onUpdate: (self) => {
-
           const progress = self.progress;
           const backgroundColor = `rgba(246, 241, 255, ${progress})`; // Adjust the alpha as needed
           background.style.backgroundColor = backgroundColor;
@@ -76,38 +76,76 @@ const Hero = () => {
   },[]); 
 
   return (
-    <div className='hero-container' ref={boxRef}>
-    
-      <div className="text-container" ref={textRef}>
-        <div className = 'hero-title'>
-          <p>
-          GetMax<br/>Solutions
-          </p>
+    <div>
+      <div className='hero-container' ref={boxRef}>
+      
+        <div className="text-container" ref={textRef}>
+          <div className = 'hero-title'>
+            <p>
+            GetMax<br/>Solutions
+            </p>
+          </div>
+          <div className = 'hero-tag'>
+            <p>
+            From Tech Titans to Healthcare Heroes  We Serve Them All!
+            </p>
+          </div>
+          <div className = 'hero-desc'>
+            <p >
+            Discover How Our Services Transcend Industries, Delivering Excellence Every Time.
+            </p>
+          </div>
         </div>
-        <div className = 'hero-tag'>
-          <p>
-          From Tech Titans to Healthcare Heroes  We Serve Them All! 
-          </p>
+        <div className = "cards-container" ref= {cardRef}>
+          <div className = "single-line">
+            <Card logo = {AUlogo} desc = "About us" />
+            <Card logo = {solutions} desc = "Solutions" />
+            <Card logo = {careers} desc = "Careers" />
+          </div>
+          <div className = "single-line">
+            <Card logo = {team} desc = "Team" />
+            <Card logo = {blogs} desc = "Blog" />
+            <Card logo = {contactus} desc = "Contact Us" />
+          </div>
         </div>
-        <div className = 'hero-desc'>
-          <p >
-          Discover How Our Services Transcend Industries, Delivering Excellence Every Time.
-          </p>
         </div>
-      </div>
-      <div className = "cards-container" ref= {cardRef}>
-        <div className = "single-line">
-          <Card logo = {AUlogo} desc = "About us" />
-          <Card logo = {solutions} desc = "Solutions" />
-          <Card logo = {careers} desc = "Careers" />
+        <div className='hero-mob'>
+          <div className='text-container-mob'>
+            <div >
+            <p className='Getmax'>
+              GetMax<br/>Solutions
+              </p>
+            </div>
+            <div className = "tag">
+            <p>
+              From Tech Titans to Healthcare Heroes  We Serve Them All!
+              </p>
+            </div>
+            <div className='desc'>
+            <p >
+              Discover How Our Services Transcend Industries, Delivering Excellence Every Time.
+              </p>
+            </div>
+          </div>
+          <div className = "cards-container-mobile" >
+            <div className = "single-line-mobile">
+              <Card logo = {AUlogo} desc = "About us" />
+              <Card logo = {solutions} desc = "Solutions" />
+            </div>
+            <div className = "single-line-mobile">
+              <Card logo = {team} desc = "Team" />
+              <Card logo = {blogs} desc = "Blog" />
+            </div>
+            <div className='single-line-mobile'>
+              <Card logo = {careers} desc = "Careers" />
+              <Card logo = {contactus} desc = "Contact Us" />
+            </div>
+          </div>
         </div>
-        <div className = "single-line">
-          <Card logo = {team} desc = "Team" />
-          <Card logo = {blogs} desc = "Blog" />
-          <Card logo = {contactus} desc = "Contact Us" />
-        </div>
-      </div>
-  </div>
+    </div>
+
+
+
   )
 }
 

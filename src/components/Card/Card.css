@@ -47,3 +47,29 @@
     line-height: 26px;
  
 }
+
+@media screen and (max-width : 1050px) {
+    *{
+        padding:0;
+        margin : 0;
+    }
+    .card-container{
+        width: 25vw ;
+        height: 25vw ;
+        
+    }
+    .card-image{
+        width: 18vw;
+        height: 18vw;
+        
+    
+    
+    }
+    .card-desc{
+
+        font-size: 12px;
+        font-weight: 400;
+
+    }
+
+}
