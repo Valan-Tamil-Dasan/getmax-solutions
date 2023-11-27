@@ -11,10 +11,24 @@
     flex-shrink: 0;
     border-radius: 16px;
     background: #FFF;
-
+    transition: all 0.5s;
     box-shadow: 0px 12px 56px 0px rgba(6, 28, 61, 0.12);
 }
 
+.card-container:hover{
+    
+    box-shadow: 0px 0px 30px 1px rgba(135, 56, 174, 0.3);
+    transition: all 0.5s;
+
+
+}
+
+.card-container:active{
+    background-color:#eceef1 ;
+    transition: all 0.1s;
+
+
+}
 
 
 .card-image{
