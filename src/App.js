@@ -1,14 +1,14 @@
 import React from 'react'
 import { NavBar ,Card } from './components'
-import { Hero } from "./containers"
+import { Hero , About} from "./containers"
 
 
 const App = () => {
   return (
     <>
       <Hero/>
-
-
+      <NavBar/>
+      <About/>
 
     </>
   )
