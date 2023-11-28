@@ -1,14 +1,13 @@
 
 body{
     margin:0px;
-
     
 }
 .hero-container{
     display: flex;
     background-color: #FAF9F6;
     min-height: 100vh;
-    margin : 0px
+
     
 }
 
@@ -18,6 +17,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-left: 49px;
+    padding-top:40px;
 }
 
 .hero-title{
@@ -56,11 +56,12 @@ body{
 }
 
 .cards-container{
+   
     flex:1;
     display: flex;
     flex-direction: column;
     gap:41px;
-    padding-top: 108px ;
+    padding-top: 148px ;
     padding-right: 41px;
 }
 
@@ -97,10 +98,7 @@ body{
 .cards-container   {
     display :none;
 }
-.hero-container{
-    flex-direction: column;
-    align-items: center;
-}
+
 
 
 .text-container{
@@ -160,6 +158,7 @@ body{
 
 .hero-mob{
     display:flex;
+    padding-top: 60px;
     flex-direction: column;
     align-items: center;
     background-color: #FAF9F6;
@@ -167,4 +166,8 @@ body{
     margin : 0px
 }
 
+}
+
+.visible{
+    opacity: 1;
 }

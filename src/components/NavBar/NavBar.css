@@ -1,7 +1,11 @@
-
+.nav-bar{
+  position: fixed;
+  width : 100vw;
+  z-index:999999;
+  top : 0;
+} 
 .nav-bar-container {
-
-  margin-top: 5px;
+    background-color: white;
     display: flex;
     text-align: center;
     color: #486284;
@@ -14,7 +18,7 @@
     letter-spacing: 0.5px;
     border-bottom: 1px solid  #DEE5ED;
     padding-bottom:6px
-    /* box-shadow: 0px 0px 1px  lightblue; */
+
 }
 
 .nav-bar-logo{

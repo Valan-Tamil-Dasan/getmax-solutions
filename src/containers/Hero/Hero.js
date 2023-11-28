@@ -1,4 +1,4 @@
-import React,  { useEffect , useRef} from 'react'
+import React,  { useEffect , useRef,useState} from 'react'
 import {Card }from "../../components"
 import "./Hero.css"
 import AUlogo from '../../assets/AboutUs.svg'
@@ -9,29 +9,56 @@ import blogs from '../../assets/blogs.svg'
 import contactus from "../../assets/contactus.svg"
 import {gsap} from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
-
+import {NavBar} from '../../components'
 
 gsap.registerPlugin(ScrollTrigger);
 
 
+
 const Hero = () => {
+
+  const [scrolled,setHidden] = useState(false);
 
   const boxRef = useRef(null);
   const cardRef = useRef(null);
   const textRef = useRef(null);
 
 
+
   useEffect(()=>{
+      
+
+
+   
 
       const background = boxRef.current;
       const card = cardRef.current;
 
-        
       const texts = textRef.current;
 
-      
+
       const tl1 = gsap.timeline({ defaults: { ease: 'power2.inOut' } });
       const tl = gsap.timeline({ defaults: { ease: 'power2.inOut' } });
+
+
+      const handleScroll = () => {
+
+        const scrollPosition = window.scrollY;
+  
+        console.log(scrollPosition);
+
+        if (scrollPosition > 1200) {
+          setHidden(true);
+          
+        } else {
+          setHidden(false);
+          
+        }
+      };
+
+      window.addEventListener('scroll', handleScroll);
+      window.addEventListener('touchmove', handleScroll);
+      
 
       tl.fromTo(
         card,
@@ -72,12 +99,22 @@ const Hero = () => {
       scrub: 5,
 
     });
+
+    
+
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+        window.removeEventListener('touchmove', handleScroll);
+      };
       
   },[]); 
 
   return (
-    <div>
-      <div className='hero-container' ref={boxRef}>
+    <div className='hero'>
+    <div style={{opacity : scrolled ? 1: 0}}>
+      <NavBar  />
+      </div>
+      <div className='hero-container' ref={boxRef} >
       
         <div className="text-container" ref={textRef}>
           <div className = 'hero-title'>
@@ -110,6 +147,7 @@ const Hero = () => {
         </div>
         </div>
         <div className='hero-mob'>
+        <NavBar  />
           <div className='text-container-mob'>
             <div >
             <p className='Getmax'>

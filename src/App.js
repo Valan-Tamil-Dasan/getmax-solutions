@@ -7,9 +7,9 @@ const App = () => {
   return (
     <>
 
-      <NavBar/>
-      <Hero/>
-      <About/>
+    <Hero/>
+
+    <About/>
 
     </>
   )

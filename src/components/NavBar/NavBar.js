@@ -47,7 +47,7 @@ const ContactUS = ()=>{
 }
 
   return (
-    <div>
+    <div className = "nav-bar">
       <div className = "nav-bar-container">
         <div className = "nav-bar-logo">
           <img src = {logo}/>
