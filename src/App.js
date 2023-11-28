@@ -6,8 +6,9 @@ import { Hero , About} from "./containers"
 const App = () => {
   return (
     <>
-      <Hero/>
+
       <NavBar/>
+      <Hero/>
       <About/>
 
     </>

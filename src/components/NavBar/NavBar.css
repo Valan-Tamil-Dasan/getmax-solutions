@@ -113,6 +113,17 @@ button:active {
   transform: scale(0.95);
 }
 
+
+.toggle-menu{
+  display:none;
+}
+
+.toggle{
+  border: 1px solid  #DEE5ED;
+  width: 48vw;
+  
+}
+
 @keyframes fly-1 {
   from {
     transform: translateY(0.1em);
@@ -123,3 +134,54 @@ button:active {
   }
 }
 
+
+@media screen and (max-width:1120px){
+
+
+
+  .nav-bar-logo{
+    margin-left: 8vw;
+}
+
+.nav-bar-contact-us-layout{
+  
+  margin-left: auto;
+}
+
+.toggle-menu{
+display: block;
+  margin-right :7vw;
+}
+
+.nav-bar-pages{
+  display: none;
+}
+
+.nav-bar-contact-us-layout{
+  display : none;
+}
+
+.toggle-dd{
+
+  position: absolute;
+  right: 0;
+  color: #486284;
+  font-size: 18w;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  line-height: 24px; 
+  letter-spacing: 0.5px;
+  background-color: white;
+  
+
+}
+
+.toggle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap : 6px;
+}
+
+}
