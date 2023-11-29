@@ -1,3 +1,4 @@
+
 .Solution {
     height: 180vh;
     background-color: #FFF6F6;
@@ -163,79 +164,6 @@
 }
 
 @media(max-width:1000px) {
-    @media(min-width:700px) {
-        .Solution {
-            height: 140vh;
-        }
-    }
-
-    .cont1,
-    .cont2,
-    .cont3,
-    .cont4,
-    .cont5 {
-        height: 35%;
-        width: 35vb;
-    }
-
-    .cont p {
-        width: 25vb;
-    }
-
-    .logo {
-        top: 54%;
-        height: 13%;
-    }
-
-    .cont1 {
-        top: -10%;
-    }
-
-    .cont2 {
-        top: -25%;
-    }
-
-    .cont3 {
-        top: -50%;
-    }
-
-    .cont4 {
-        top: -50%;
-    }
-
-    .cont5 {
-        top: -80%;
-        left: -15%;
-    }
-
-    .cont h4 {
-        font-size: 13px;
-    }
-
-    .cont p {
-        font-size: 11px;
-    }
-
-    .cont a {
-        font-size: 12px;
-        width: 15vb;
-    }
-
-    .recruitment,
-    .ushc,
-    .training,
-    .buisness {
-        height: 12vh;
-    }
-
-    .socialmedia {
-        height: 10vh;
-        margin-top: 3vh;
-    }
-
-}
-
-@media(max-width:700px) {
     .Solution {
         height: 230vh;
     }
@@ -289,10 +217,17 @@
         height: 10vh;
         margin-top: 3vh;
     }
-
+    .cont p{
+        width: 30vb;
+    }
+    @media(min-width:750px) {
+        .cont1 {
+            margin-top: -25%;
+        }
+    }
     @media(max-width:450px) {
         .cont1 {
-            margin-top: -45%;
+            margin-top: -55%;
         }
     }
 }

@@ -110,7 +110,7 @@ const Hero = () => {
   },[]); 
 
   return (
-    <div className='hero'>
+    <div className='hero' id = "hero">
     <div style={{opacity : scrolled ? 1: 0}}>
       <NavBar  />
       </div>
@@ -135,14 +135,20 @@ const Hero = () => {
         </div>
         <div className = "cards-container" ref= {cardRef}>
           <div className = "single-line">
-            <Card logo = {AUlogo} desc = "About us" />
-            <Card logo = {solutions} desc = "Solutions" />
+            <a href="#about-us">
+              <Card logo = {AUlogo} desc = "About us" />
+            </a>
+            <a href="#solutions">
+              <Card logo = {solutions} desc = "Solutions" />
+            </a>
             <Card logo = {careers} desc = "Careers" />
           </div>
           <div className = "single-line">
             <Card logo = {team} desc = "Team" />
             <Card logo = {blogs} desc = "Blog" />
-            <Card logo = {contactus} desc = "Contact Us" />
+            <a href="#contact-us">
+              <Card logo = {contactus} desc = "Contact Us" />
+            </a>
           </div>
         </div>
         </div>

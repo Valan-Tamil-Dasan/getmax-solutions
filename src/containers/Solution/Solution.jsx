@@ -9,7 +9,7 @@ import recruitment from '../../assets/recruitment.png';
 
 function Solution() {
     return (
-        <div className='Solution' align='center'>
+        <div className='Solution' align='center' id = "solutions">
 
             <h1>
                 Our Solutions

@@ -29,7 +29,7 @@ function About(){
     };
     return(
 
-        <div className="about-us">
+        <div className="about-us" id = "about-us">
             <div className="page">
                 <div className="left">
                     <div className="container">

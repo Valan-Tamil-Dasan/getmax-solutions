@@ -7,7 +7,7 @@ import { SocialIcon } from 'react-social-icons'
 
 function Contact() {
     return (
-        <div className='div1'>
+        <div className='div1' id= "contact-us">
             <div className='div2'>
                 <div className='div3'>
                     <h1 className='label'>
