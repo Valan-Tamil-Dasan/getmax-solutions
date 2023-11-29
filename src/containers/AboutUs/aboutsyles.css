@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.about-us{
+    height: 100vh;
+}
+
 .page{
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     background: #F6F1FF;
     position: absolute;
     display: grid;   
@@ -36,16 +40,16 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    transition:0.3s;
     margin-top: 50px;
-    text-align: center;
+    text-align: left;
+    transition:0.3s;
+
 }
 .right{
     font-family: 'Inter', sans-serif;
-    padding-top: 270px;
     margin-left: 120px;
 }
-h1{
+.about-text{
     position: absolute;
     width: 424px;
     height: 80px;
@@ -75,12 +79,18 @@ h1{
     font-weight: 400;
     letter-spacing: 0.22px;
     padding-left: 200px;
-    
 }
+.box{
+    top: 270px;
+}
+    
+
 .img{
     width: 20px;
     height: 20px;
     display: inline-block;
+    cursor: pointer;
+    transition:0.2s;
 }
 .box{
     font-family: 'Inter', sans-serif;
@@ -100,4 +110,88 @@ h1{
     font-family: 'Inter', sans-serif;
 
 }
+.media{
+    display: none;
+}
+.media-heading{
+    display: none;
+}
 
+.container-mob{
+    display: none;
+}
+@media screen and (max-width:1040px) {
+    .page{
+        width: 100%;
+        background: #F6F1FF;
+        position:absolute;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .right{
+        display: none;
+    }
+    h1{
+        display: none;
+    }
+    .left{
+        display: none;
+    }
+    .container{
+        width: 70%;
+        height: 50%;
+    }
+    .media{
+        display:grid;
+    }
+    .container p{
+        font-size:70%;
+        margin: 10px;
+    }
+    .media-heading{
+        display: grid;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: medium;
+        position: relative;
+        margin-top: 10px;
+        
+    }
+    .pic{
+        position:absolute;
+    }
+    .pic-mob{
+        width: 270px;
+        height: 270px;
+        margin-bottom : auto;
+        padding-left: 6vw;
+
+
+    }
+
+    .container-mob{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 79vw;
+        height: 80vh;
+        margin-top: 20vw;
+        background: #FFFFFF;
+        border-radius: 16px;
+        box-shadow: 0px 12px 56.7px rgba(6, 28, 61, 0.07);
+
+
+    }
+    .container-mob p{
+        color: #42526B;
+        text-align: center;
+        padding-bottom: 30vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        
+        font-size: 5vw;
+    }
+    
+}
