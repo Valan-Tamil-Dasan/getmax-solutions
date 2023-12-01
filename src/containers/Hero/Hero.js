@@ -7,6 +7,7 @@ import careers from '../../assets/careers.svg'
 import team from '../../assets/team.svg'
 import blogs from '../../assets/blogs.svg'
 import contactus from "../../assets/contactus.svg"
+import getMaxLogo from "../../assets/getMaxLogo.png"
 import {gsap} from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import {NavBar} from '../../components'
@@ -117,19 +118,13 @@ const Hero = () => {
       <div className='hero-container' ref={boxRef} >
       
         <div className="text-container" ref={textRef}>
-          <div className = 'hero-title'>
-            <p>
-            GetMax<br/>Solutions
-            </p>
+          <div className = 'hero-title-image'>
+            <img src={getMaxLogo} />
           </div>
-          <div className = 'hero-tag'>
-            <p>
-            From Tech Titans to Healthcare Heroes  We Serve Them All!
-            </p>
-          </div>
+          
           <div className = 'hero-desc'>
             <p >
-            Discover How Our Services Transcend Industries, Delivering Excellence Every Time.
+            Transforming Talent, Healing Health, Digitizing Tomorrow – Where Expertise Meets Innovation in Training, Placement, Healthcare, Digital Solutions, RPO, and Business Consulting.
             </p>
           </div>
         </div>
@@ -150,6 +145,11 @@ const Hero = () => {
               <Card logo = {contactus} desc = "Contact Us" />
             </a>
           </div>
+          <div className = 'hero-tag'>
+            <p>
+            From Tech Titans to Healthcare Heroes  We Serve Them All!
+            </p>
+          </div>
         </div>
         </div>
         <div className='hero-mob'>
@@ -167,8 +167,7 @@ const Hero = () => {
             </div>
             <div className='desc'>
             <p >
-              Discover How Our Services Transcend Industries, Delivering Excellence Every Time.
-              </p>
+            Transforming Talent, Healing Health, Digitizing Tomorrow – Where Expertise Meets Innovation in Training, Placement, Healthcare, Digital Solutions, RPO, and Business Consulting.              </p>
             </div>
           </div>
           <div className = "cards-container-mobile" >

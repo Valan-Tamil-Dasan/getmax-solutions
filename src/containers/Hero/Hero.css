@@ -21,30 +21,22 @@ body{
     display: flex;
     flex-direction: column;
     padding-left: 49px;
-    padding-top:40px;
+    padding-top:130px;
 }
 
-.hero-title{
-    height: 320px;
-    font-family: 'Inter', sans-serif;
-    font-size: 108px;
-    font-style: normal;
-    font-weight: bolder;
-    line-height: 100px; 
-    letter-spacing: -1.92px;
-    background: linear-gradient(90deg, #0B63E5 0%, #8167BB 68.03%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.hero-title-image{
+    width: 384px;
+    height: 284px;
 }
 
 .hero-tag{
     color: #42526B;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-left: 50px;
 }
 
 .hero-desc{
@@ -54,9 +46,9 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 133px;
-    width: 543px;
-    height: 77px;
+    margin-top: 41px;
+    width: 600px;
+    height: 146px;
 }
 
 .cards-container{
@@ -65,7 +57,7 @@ body{
     display: flex;
     flex-direction: column;
     gap:41px;
-    padding-top: 148px ;
+    padding-top: 108px ;
     padding-right: 41px;
 }
 

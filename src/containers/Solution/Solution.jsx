@@ -1,5 +1,5 @@
 import './Solution.css';
-import image from '../../assets/GetMax logo.png';
+import image from '../../assets/getMaxLogo.png';
 import arrow from '../../assets/arrow.png'
 import training from '../../assets/training.png';
 import socialmedia from '../../assets/socialmedia.png';
