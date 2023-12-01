@@ -1,5 +1,5 @@
 import React ,{useState} from 'react'
-import logo from "../../assets/Group.png"
+import logo from "../../assets/getMaxLogo.svg"
 import "../NavBar/NavBar.css"
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
@@ -60,7 +60,7 @@ const ContactUS = ()=>{
     <div className = "nav-bar">
       <div className = "nav-bar-container">
         <div className = "nav-bar-logo">
-          <img src = {logo}/>
+          <img src = {logo} className="nav-bar-logo-img"/>
         </div>
         <Menu/>
         <ContactUS/>

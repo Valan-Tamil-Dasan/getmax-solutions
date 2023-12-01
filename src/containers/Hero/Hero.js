@@ -7,7 +7,7 @@ import careers from '../../assets/careers.svg'
 import team from '../../assets/team.svg'
 import blogs from '../../assets/blogs.svg'
 import contactus from "../../assets/contactus.svg"
-import getMaxLogo from "../../assets/getMaxLogo.png"
+import getMaxLogo from "../../assets/getMaxLogo.svg"
 import {gsap} from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import {NavBar} from '../../components'
