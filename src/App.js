@@ -1,18 +1,12 @@
 import React from 'react'
-import { Hero , About ,Contact ,Solution ,Team} from "./containers"
+import { SolutionCard } from './components'
+import { Hero , About ,Contact ,Solution ,Team,Solutions} from "./containers"
 
 
 const App = () => {
   return (
     <>
-
-  
-  <Hero/>
-    <About/>
-
-
-   
-    
+    <Solutions/>
     </>
   )
 }
