@@ -3,9 +3,11 @@
     display: flex;
     flex-direction: column;
     background-color: #FFFAEE;
-    height: 180vh;
-    width: 100vw;
+    padding-top: 5vw;
+
     align-items: center;
+   
+
 
 }
 
@@ -37,22 +39,33 @@
     width: 984px;
     flex-shrink: 0;
     margin-top: 0px;
+    margin-bottom: 60px;
  
 }
 
 .Solutions-card-holder{
 
-    width: 96vw;
-    height: 140vh;
+    width: 1470px;
+    height: 1100px;
 
 
 
 }
 
+.Solutions-cont-mob{
+    display: none;
 
-@media screen and (max-width : 1050px){
+}
 
-    .Solutions-title{
+@media screen and (max-width : 1470px){
+   
+    .Solutions-cont{
+        padding-top: 10vw;
+        padding-bottom: 10vw; 
+    
+    }
+
+        .Solutions-title{
         font-size: 12vw;
         margin-bottom: 5vw;
     }
@@ -67,41 +80,62 @@
     margin-bottom: 5vw;
 
 }
+.Solutions-card-holder{
+
+        display: none;
+
+
+}
+.Solutions-cont-mob{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFAEE;
+
+    padding-top: 10VW;
+
+}
+
+
+
+
 }
 
  .Solutions-content-creation{
     position: relative;
-    bottom : 30vw;
-    left: 55vw;
+    bottom : 500px;
+    left: 860px;
 } 
 
 .social-media-card{
     position: relative;
-    top : 4vw;
+    top : 60px;
 }
  
 .email-marketing{
     position: relative;
-   left: 15vw;
+   left: 250px;
 } 
 
 .gmlogo{
 
     width: 240px;
     position: relative;
-    left: 40vw;
-    bottom: 29vw;
+    left: 600px;
+    bottom: 435px;
 
 }
 
 .Solutions-seo{
     position: relative;
-    bottom : 39vw;
-    left: 59vw;
+    bottom : 600px;
+    left: 900px;
 }
 
 .Solution-pay{
     position: relative;
-    bottom : 39vw;
-    left: 18vw;
+    bottom : 630px;
+    left: 310px;
 }
