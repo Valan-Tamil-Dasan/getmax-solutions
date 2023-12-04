@@ -6,7 +6,9 @@ import { Hero , About ,Contact ,Solution ,Team,Solutions} from "./containers"
 const App = () => {
   return (
     <>
+
     <Solutions/>
+
     </>
   )
 }
