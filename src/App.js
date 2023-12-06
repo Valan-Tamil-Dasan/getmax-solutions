@@ -1,6 +1,7 @@
 import React from 'react'
 import { SolutionCard } from './components'
-import { Hero , About ,Contact ,Solution ,Team,Solutions} from "./containers"
+import { Hero , About ,Contact ,Solution , Team,Solutions} from "./containers"
+
 
 
 const App = () => {
@@ -9,7 +10,8 @@ const App = () => {
     <Hero/>
     <About/>
     <Solutions/>
-    <Solutions/>
+    <Team/>
+    <Contact/>
 
     </>
   )
