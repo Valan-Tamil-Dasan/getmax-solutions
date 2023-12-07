@@ -1,16 +1,13 @@
 import React from 'react'
-import { SolutionCard } from './components'
-import { Hero , About ,Contact  , Team,Solutions ,Clients} from "./containers"
+
+import {Home} from './pages'
 
 
 
 const App = () => {
   return (
     <>
-    <Solutions/>
-    <Clients/>
-    <Solutions/>
-
+      <Home/>
     </>
   )
 }
