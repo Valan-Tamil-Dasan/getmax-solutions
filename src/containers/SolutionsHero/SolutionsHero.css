@@ -1,0 +1,86 @@
+.SH-contact-us-layout{
+
+}
+
+.SH-contact-us-button{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    background: #7955F7;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: 000;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+    height:72px;
+    width: 220px;
+    color : white;
+}
+
+.SHcontainer{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-left: 80px;
+    background: #FAF9F6;
+   
+}
+
+.SHleft{
+    flex: 1.4;
+}
+
+.SHright{
+    flex: 1;
+    display: flex;
+    gap:60px;
+    padding-left: 90px;
+}
+.SHrightcol1{
+display: flex;
+flex-direction: column;
+gap:90px;
+}
+
+.SHrightcol2{
+    display: flex;
+    flex-direction: column;
+    gap:90px;
+   
+padding-top: 80px;}
+
+.SHr-item-logo{
+    width: 210px;
+    gap:90px;
+}
+.SHtitle{
+    font-family: Inter;
+    font-size: 87.402px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: -1.748px;
+    background: linear-gradient(93deg, #7000FF 47.46%, #9441FF 78.72%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.SHdesc{
+    width: 709px;
+height: 132px;
+color: #42526B;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 60px;
+margin-top:60px;
+}

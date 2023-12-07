@@ -1,13 +1,14 @@
 import React from 'react'
 
-import {Home} from './pages'
+import {Home,Solutions, Team} from './pages'
 
 
 
 const App = () => {
   return (
     <>
-      <Home/>
+   
+      <Solutions/>
     </>
   )
 }
