@@ -3,6 +3,8 @@ import RCM from '../../assets/rcm.svg'
 import Arrow from '../../assets/readmore.svg'
 import DS from '../../assets/digitalsol.svg'
 import scar from '../../assets/scar.svg'
+import business from '../../assets/asdgfasdffds.svg'
+import Inno from '../../assets/nigg.svg'
 import './SHRC.css'
 
 const SHRC = () => {
@@ -110,8 +112,64 @@ const SHRC = () => {
         </div>
 
         
-        <div className='S-business'></div>
-        <div className='S-innovate'></div>
+        <div className='S-business'>
+            <div className='SHRC-top'>
+            <div className='SHRC-right'>
+                    <div className='SHRC-box'><p className='SRHC-box-text'>Foster HR RPO Mastery, Workforce Excellence, Success Unveiled.</p></div>
+                    <div className='SHRC-box'><p className='SRHC-box-text'>Strategic sourcing Talent, Workforce Excellence, Success Unveiled.</p></div>
+                </div>
+                <div className='business-center'>
+                <img src={business}className='business-center' />
+                </div>
+                <div className='SHRC-left'>
+                    <div className='SHRC-dash'></div>
+                    <div className='SHRC-title'>Revolutionizing Healthcare Revenue Cycle</div>
+                    <div className='SHRC-desc'>Optimize revenue cycles in U.S. healthcare for efficiency, accuracy, and profitability</div>
+                    <div className='SHRC-read'>
+                        <div>Read more</div>
+                        <div>
+                            <img src={Arrow} className='shrc-arrow' />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='Scar-bottom'>
+                Revolutionized talent acquisition for clients with a streamlined RPO model, achieving 30% faster hiring cycles and exceptional candidate satisfaction.
+            </div>
+        </div>
+
+
+
+
+        
+        <div className='S-innovate'>
+            <div className='inno-top'>
+                <div className='SHRC-left'>
+                    <div className='SHRC-dash'></div>
+                    <div className='Scar-title '>Revolutionizing Healthcare Revenue Cycle</div>
+                    <div className='Scar-desc'>Optimize revenue cycles in U.S. healthcare for efficiency, accuracy, and profitability</div>
+                    <div className='SHRC-read'>
+                        <div>Read more</div>
+                        <div>
+                            <img src={Arrow} className='shrc-arrow' />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='inno-center'>
+                <div className='inno-c-left'>
+                <img src={Inno} />
+                </div>
+                <div className='inno-c-rigth'>
+                <div className='inno-right'>
+                    <div className='inno-box'><p className='SRHC-box-text'>Strategic Success, Shaping Futures with Innovative Excellence.</p></div>
+                    <div className='inno-box'><p className='SRHC-box-text'>Chart Success Optimization – Your Growth, Our Expertise</p></div>
+                </div>
+                </div>
+            </div>
+            <div className='inno-bottom'>Guided client enterprises through strategic transformations, optimizing operations and achieving sustainable growth, a hallmark of our dynamic business consulting services.</div>
+        </div>
     </div>
   )
 }

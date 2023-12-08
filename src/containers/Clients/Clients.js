@@ -35,7 +35,7 @@ const Carousel = () => {
 <div className="cli-col">
  <div className='cli-colHeader'>
   <h3 className="cli-head2">
-    Technology Partners
+    Technology Partners 
   </h3>
  </div>
     <div className='marq1' >
