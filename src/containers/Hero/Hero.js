@@ -180,17 +180,17 @@ const Hero = () => {
           </div>
           <div className = "cards-container-mobile" >
             <div className = "single-line-mobile">
-              <a href="#about-us">
+              <ScrollLink to = "about-us" spy = {true} smooth = {true} offset = {-50} duration = {700}>
                 <Card logo = {AUlogo} desc = "About us" />
-              </a>
-              <a href="#solutions">
+              </ScrollLink>
+              <ScrollLink to = "solutions" spy = {true} smooth = {true} offset = {-60} duration = {700}>
                 <Card logo = {solutions} desc = "Solutions" />
-              </a>
+              </ScrollLink>
             </div>
             <div className = "single-line-mobile">
-              <a href="#team">
+              <ScrollLink to = "Team" spy = {true} smooth = {true} offset = {-70} duration = {700}>
                 <Card logo = {team} desc = "Team" />
-              </a>
+              </ScrollLink>
               <Link to='/Blogs'>
                 <Card logo = {blogs} desc = "Blog" />
               </Link>
@@ -199,9 +199,9 @@ const Hero = () => {
               <Link to='Careers'>
                 <Card logo = {careers} desc = "Careers" />
               </Link>
-              <a href="#contact-us">
+              <ScrollLink to = "contact-us" spy = {true} smooth = {true} offset = {-80} duration = {700}>
                 <Card logo = {contactus} desc = "Contact Us" />
-              </a>
+              </ScrollLink>
             </div>
           </div>
         </div>
