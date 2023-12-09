@@ -11,6 +11,7 @@ import getMaxLogo from "../../assets/getMaxLogo.svg"
 import {gsap} from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import {NavBar} from '../../components'
+import {Link} from 'react-router-dom'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -136,11 +137,17 @@ const Hero = () => {
             <a href="#solutions">
               <Card logo = {solutions} desc = "Solutions" />
             </a>
-            <Card logo = {careers} desc = "Careers" />
+            <Link to = "/Careers">
+              <Card logo = {careers} desc = "Careers" />
+            </Link> 
           </div>
           <div className = "single-line">
-            <Card logo = {team} desc = "Team" />
-            <Card logo = {blogs} desc = "Blog" />
+            <a href="#Team">
+              <Card logo = {team} desc = "Team" />
+            </a>
+            <Link to='/Blogs'>
+              <Card logo = {blogs} desc = "Blog" />
+            </Link>
             <a href="#contact-us">
               <Card logo = {contactus} desc = "Contact Us" />
             </a>
@@ -172,16 +179,28 @@ const Hero = () => {
           </div>
           <div className = "cards-container-mobile" >
             <div className = "single-line-mobile">
-              <Card logo = {AUlogo} desc = "About us" />
-              <Card logo = {solutions} desc = "Solutions" />
+              <a href="#about-us">
+                <Card logo = {AUlogo} desc = "About us" />
+              </a>
+              <a href="#solutions">
+                <Card logo = {solutions} desc = "Solutions" />
+              </a>
             </div>
             <div className = "single-line-mobile">
-              <Card logo = {team} desc = "Team" />
-              <Card logo = {blogs} desc = "Blog" />
+              <a href="#team">
+                <Card logo = {team} desc = "Team" />
+              </a>
+              <Link to='/Blogs'>
+                <Card logo = {blogs} desc = "Blog" />
+              </Link>
             </div>
             <div className='single-line-mobile'>
-              <Card logo = {careers} desc = "Careers" />
-              <Card logo = {contactus} desc = "Contact Us" />
+              <Link to='Careers'>
+                <Card logo = {careers} desc = "Careers" />
+              </Link>
+              <a href="#contact-us">
+                <Card logo = {contactus} desc = "Contact Us" />
+              </a>
             </div>
           </div>
         </div>
@@ -193,4 +212,3 @@ const Hero = () => {
 }
 
 export default Hero
-

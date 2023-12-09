@@ -2,7 +2,7 @@ import React ,{useState} from 'react'
 import logo from "../../assets/getMaxLogo.svg"
 import "../NavBar/NavBar.css"
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-
+import {Link} from 'react-router-dom'
 
 
 
@@ -10,18 +10,24 @@ const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const Menu = ()=>{
     return (      <div className = "nav-bar-pages">
-    <a href="#hero">
-      <p className='nav-bar-tabs'>Home</p>
-    </a>
-    <a href="#about-us">
-      <p className='nav-bar-tabs'>About Us</p>
-    </a>
-    <a href="#solutions">
+    
+      <Link to= "/">
+        <p className='nav-bar-tabs'>Home</p>
+      </Link>
+ 
+    
+    <Link to = "/Solutions">
       <p className='nav-bar-tabs'>Our Solutions</p>
-    </a>
+    </Link>
+    <Link to = "/Team">
     <p className='nav-bar-tabs'>Team</p>
+    </Link>
+    <Link to = "/Blogs">
     <p className='nav-bar-tabs'>Blogs</p>
+    </Link>
+    <Link to = "/Careers">
     <p className='nav-bar-tabs'>Careers</p>
+    </Link>
   </div>)
   }
 
@@ -74,13 +80,29 @@ const ContactUS = ()=>{
       <div className='toggle-dd'>
         {toggleMenu && (
           <div className="toggle">
-          <p className='nav-bar-tabs'>Home</p>
-            <p className='nav-bar-tabs'>About Us</p>
+          <Link to ='/'>
+            <p className='nav-bar-tabs'>Home</p>
+          </Link>
+           
+            <Link to = "/Solutions">
             <p className='nav-bar-tabs'>Our Solutions</p>
-            <p className='nav-bar-tabs'>Team</p>
-            <p className='nav-bar-tabs'>Blogs</p>
-            <p className='nav-bar-tabs'>Careers</p>
-            <p className='nav-bar-tabs'>Contact Us</p>
+            </Link>
+
+            <Link to ='/Team'>
+              <p className='nav-bar-tabs'>Team</p>
+            </Link>
+
+            <Link to="/Blogs">
+              <p className='nav-bar-tabs'>Blogs</p>
+            </Link>
+
+            <Link to="/Careers">
+              <p className='nav-bar-tabs'>Careers</p>
+            </Link>
+
+            
+              <p className='nav-bar-tabs'>Contact Us</p>
+            
           </div>
         )}
         </div>
@@ -89,4 +111,3 @@ const ContactUS = ()=>{
 }
 
 export default NavBar
-

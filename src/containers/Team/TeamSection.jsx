@@ -10,7 +10,7 @@ import { teamMembers } from './teamData';
 const TeamSection = () => {
   return (
 
-    <div className='team-whole'>
+    <div className='team-whole' id = "Team">
       <div className='team-div'>
       
         <div className="team-mainblock team-con">

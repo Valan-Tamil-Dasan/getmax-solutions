@@ -14,7 +14,7 @@ import gmlogo from '../../assets/getMaxLogo.svg'
 const Solutions = () => {
   return (
     <>
-        <div className = "Solutions-cont">
+        <div className = "Solutions-cont" id = "solutions">
             <div ><p className='Solutions-title'>Our Solutions</p></div>
             <div className='Solutions-desc'><p className='Solutions-desc'>Your Success, Our Services. Tailored Solutions for Every Business Challenge. Discover the Power of Innovation and Excellence.</p> </div>
             <div className='Solutions-card-holder'>
