@@ -12,6 +12,7 @@ import {gsap} from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import {NavBar} from '../../components'
 import {Link} from 'react-router-dom'
+import {Link as ScrollLink} from 'react-scroll'
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -131,26 +132,26 @@ const Hero = () => {
         </div>
         <div className = "cards-container" ref= {cardRef}>
           <div className = "single-line">
-            <a href="#about-us">
+            <ScrollLink to = "about-us" spy = {true} smooth = {true} offset = {-50} duration = {700}>
               <Card logo = {AUlogo} desc = "About us" />
-            </a>
-            <a href="#solutions">
+            </ScrollLink>
+            <ScrollLink to = "solutions" spy = {true} smooth = {true} offset = {20} duration = {700}>
               <Card logo = {solutions} desc = "Solutions" />
-            </a>
+            </ScrollLink>
             <Link to = "/Careers">
               <Card logo = {careers} desc = "Careers" />
             </Link> 
           </div>
           <div className = "single-line">
-            <a href="#Team">
+            <ScrollLink to = "Team" spy = {true} smooth = {true} offset = {-70} duration = {700}>
               <Card logo = {team} desc = "Team" />
-            </a>
+            </ScrollLink>
             <Link to='/Blogs'>
               <Card logo = {blogs} desc = "Blog" />
             </Link>
-            <a href="#contact-us">
+            <ScrollLink to = "contact-us" spy = {true} smooth = {true} offset = {-80} duration = {700}>
               <Card logo = {contactus} desc = "Contact Us" />
-            </a>
+            </ScrollLink>
           </div>
           <div className = 'hero-tag'>
             <p>
