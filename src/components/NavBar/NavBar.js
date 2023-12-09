@@ -2,30 +2,27 @@ import React ,{useState} from 'react'
 import logo from "../../assets/getMaxLogo.svg"
 import "../NavBar/NavBar.css"
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import {Link} from "react-scroll"
+
 
 
 
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const Menu = ()=>{
-    return (      
-      <div className = "nav-bar-pages">
-        <Link to = "hero" spy = {true} smooth = {true} offset = {50} duration = {700}>
-          <p className='nav-bar-tabs'>Home</p>
-        </Link>
-        <Link to = "about-us" spy = {true} smooth = {true} offset = {-50} duration = {700}>
-          <p className='nav-bar-tabs'>About Us</p>
-        </Link>
-        <Link to = "solutions" spy = {true} smooth = {true} offset = {20} duration = {700}>
-          <p className='nav-bar-tabs'>Our Solutions</p>
-        </Link>
-        <Link to = "team" spy = {true} smooth = {true} offset = {-70} duration = {700}>
-          <p className='nav-bar-tabs'>Team</p>
-        </Link>
-        <p className='nav-bar-tabs'>Blogs</p>
-        <p className='nav-bar-tabs'>Careers</p>
-      </div>)
+    return (      <div className = "nav-bar-pages">
+    <a href="#hero">
+      <p className='nav-bar-tabs'>Home</p>
+    </a>
+    <a href="#about-us">
+      <p className='nav-bar-tabs'>About Us</p>
+    </a>
+    <a href="#solutions">
+      <p className='nav-bar-tabs'>Our Solutions</p>
+    </a>
+    <p className='nav-bar-tabs'>Team</p>
+    <p className='nav-bar-tabs'>Blogs</p>
+    <p className='nav-bar-tabs'>Careers</p>
+  </div>)
   }
 
 const ContactUS = ()=>{
@@ -33,7 +30,7 @@ const ContactUS = ()=>{
     
     
       <div className= 'nav-bar-contact-us-layout'>
-      <Link to = "contact-us" spy = {true} smooth = {true} offset = {-81} duration = {700}>
+      <a href="#contact-us">
         <button className = "nav-bar-contact-us-button">
           <div className="svg-wrapper-1">
             <div className="svg-wrapper">
@@ -53,7 +50,7 @@ const ContactUS = ()=>{
           </div>
           <span>contact us</span>
         </button>
-      </Link>
+      </a>
       </div>
 
   )
