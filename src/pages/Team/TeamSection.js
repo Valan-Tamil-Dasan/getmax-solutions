@@ -3,14 +3,16 @@ import React from 'react';
 import Header from './Header';
 import TeamMemberCard from './TeamMemberCard';
 import './TeamSection.css';
-
+import {NavBar} from '../../components'
 // Import teamMembers from the separate data file
 import { teamMembers } from './teamData';
 import Team_img from './Assets/team-img2.png';
 
 const TeamSection = () => {
   return (
+    
     <div className='mainteam-sep-color'>
+    <NavBar/>
     <div className="mainteam-sep-mainblock mainteam-sep-con ">
       <Header/>
       <div className="mainteam-sep-mainblock1">

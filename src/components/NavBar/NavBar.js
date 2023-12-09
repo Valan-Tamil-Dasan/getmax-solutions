@@ -2,8 +2,7 @@ import React ,{useState} from 'react'
 import logo from "../../assets/getMaxLogo.svg"
 import "../NavBar/NavBar.css"
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-
-import {Link} from "react-scroll"
+import {Link} from 'react-router-dom'
 
 
 
@@ -11,45 +10,33 @@ const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const Menu = ()=>{
     return (      <div className = "nav-bar-pages">
-    <a href="#hero">
-      <p className='nav-bar-tabs'>Home</p>
-    </a>
-    <a href="#about-us">
-      <p className='nav-bar-tabs'>About Us</p>
-    </a>
-    <a href="#solutions">
+    
+      <Link to= "/">
+        <p className='nav-bar-tabs'>Home</p>
+      </Link>
+ 
+    
+    <Link to = "/Solutions">
       <p className='nav-bar-tabs'>Our Solutions</p>
-    </a>
+    </Link>
+    <Link to = "/Team">
     <p className='nav-bar-tabs'>Team</p>
+    </Link>
+    <Link to = "/Blogs">
     <p className='nav-bar-tabs'>Blogs</p>
+    </Link>
+    <Link to = "/Careers">
     <p className='nav-bar-tabs'>Careers</p>
+    </Link>
   </div>)
-    return (      
-      <div className = "nav-bar-pages">
-        <Link to = "hero" spy = {true} smooth = {true} offset = {50} duration = {700}>
-          <p className='nav-bar-tabs'>Home</p>
-        </Link>
-        <Link to = "about-us" spy = {true} smooth = {true} offset = {-50} duration = {700}>
-          <p className='nav-bar-tabs'>About Us</p>
-        </Link>
-        <Link to = "solutions" spy = {true} smooth = {true} offset = {20} duration = {700}>
-          <p className='nav-bar-tabs'>Our Solutions</p>
-        </Link>
-        <Link to = "team" spy = {true} smooth = {true} offset = {-70} duration = {700}>
-          <p className='nav-bar-tabs'>Team</p>
-        </Link>
-        <p className='nav-bar-tabs'>Blogs</p>
-        <p className='nav-bar-tabs'>Careers</p>
-      </div>)
   }
 
 const ContactUS = ()=>{
   return (
-
-
+    
+    
       <div className= 'nav-bar-contact-us-layout'>
       <a href="#contact-us">
-      <Link to = "contact-us" spy = {true} smooth = {true} offset = {-81} duration = {700}>
         <button className = "nav-bar-contact-us-button">
           <div className="svg-wrapper-1">
             <div className="svg-wrapper">
@@ -69,13 +56,12 @@ const ContactUS = ()=>{
           </div>
           <span>contact us</span>
         </button>
-        </Link>
       </a>
-      
       </div>
 
   )
 }
+
   return (
     <div className = "nav-bar">
       <div className = "nav-bar-container">
@@ -94,17 +80,34 @@ const ContactUS = ()=>{
       <div className='toggle-dd'>
         {toggleMenu && (
           <div className="toggle">
-          <p className='nav-bar-tabs'>Home</p>
-            <p className='nav-bar-tabs'>About Us</p>
+          <Link to ='/'>
+            <p className='nav-bar-tabs'>Home</p>
+          </Link>
+           
+            <Link to = "/Solutions">
             <p className='nav-bar-tabs'>Our Solutions</p>
-            <p className='nav-bar-tabs'>Team</p>
-            <p className='nav-bar-tabs'>Blogs</p>
-            <p className='nav-bar-tabs'>Careers</p>
-            <p className='nav-bar-tabs'>Contact Us</p>
+            </Link>
+
+            <Link to ='/Team'>
+              <p className='nav-bar-tabs'>Team</p>
+            </Link>
+
+            <Link to="/Blogs">
+              <p className='nav-bar-tabs'>Blogs</p>
+            </Link>
+
+            <Link to="/Careers">
+              <p className='nav-bar-tabs'>Careers</p>
+            </Link>
+
+            
+              <p className='nav-bar-tabs'>Contact Us</p>
+            
           </div>
         )}
         </div>
     </div>
   )
 }
+
 export default NavBar
