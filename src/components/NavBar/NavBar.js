@@ -3,7 +3,7 @@ import logo from "../../assets/getMaxLogo.svg"
 import "../NavBar/NavBar.css"
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import {Link} from 'react-router-dom'
-
+import {Link as ScrollLink} from 'react-scroll'
 
 
 const NavBar = () => {
@@ -36,7 +36,7 @@ const ContactUS = ()=>{
     
     
       <div className= 'nav-bar-contact-us-layout'>
-      <a href="#contact-us">
+      <ScrollLink to = "contact-us" spy = {true} smooth = {true} offset = {-81} duration = {700}>
         <button className = "nav-bar-contact-us-button">
           <div className="svg-wrapper-1">
             <div className="svg-wrapper">
@@ -56,7 +56,7 @@ const ContactUS = ()=>{
           </div>
           <span>contact us</span>
         </button>
-      </a>
+      </ScrollLink>
       </div>
 
   )
@@ -80,7 +80,7 @@ const ContactUS = ()=>{
       <div className='toggle-dd'>
         {toggleMenu && (
           <div className="toggle">
-          <Link to ='/'>
+          <Link to ='/#hero'>
             <p className='nav-bar-tabs'>Home</p>
           </Link>
            
@@ -100,9 +100,9 @@ const ContactUS = ()=>{
               <p className='nav-bar-tabs'>Careers</p>
             </Link>
 
-            
+            <ScrollLink to = "contact-us" spy = {true} smooth = {true} offset = {-81} duration = {700}>
               <p className='nav-bar-tabs'>Contact Us</p>
-            
+            </ScrollLink>
           </div>
         )}
         </div>
