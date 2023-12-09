@@ -10,8 +10,9 @@ import { teamMembers } from './teamData';
 const TeamSection = () => {
   return (
 
-    <div className='team-whole' id = "team">
-      <div className='team-div'>    
+    <div className='team-whole'>
+      <div className='team-div'>
+      
         <div className="team-mainblock team-con">
           <Header/>
           <div className="team-mainblock-ww">
@@ -33,7 +34,8 @@ const TeamSection = () => {
         </div>
       </div>
       <div className='team-div-mob'>
-        <div className="team-cont-mob">
+
+      <div className="team-cont-mob">
           <Header/>
           <div className="team-mainblock-ww">
             {teamMembers.map((member, index) => (
@@ -52,6 +54,8 @@ const TeamSection = () => {
             <a href="/">Load more</a>
           </p>
         </div>
+
+
       </div>
     </div>
   );
