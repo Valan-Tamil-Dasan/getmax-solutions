@@ -11,7 +11,7 @@ const NavBar = () => {
   const Menu = ()=>{
     return (      <div className = "nav-bar-pages">
     
-      <Link to= "/">
+      <Link to= "/#hero">
         <p className='nav-bar-tabs'>Home</p>
       </Link>
  
