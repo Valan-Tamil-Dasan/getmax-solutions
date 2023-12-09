@@ -11,6 +11,7 @@ import getMaxLogo from "../../assets/getMaxLogo.svg"
 import {gsap} from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import {NavBar} from '../../components'
+import {Link} from "react-scroll"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -130,20 +131,22 @@ const Hero = () => {
         </div>
         <div className = "cards-container" ref= {cardRef}>
           <div className = "single-line">
-            <a href="#about-us">
+            <Link to = "about-us" spy = {true} smooth = {true} offset = {-50} duration = {700}>
               <Card logo = {AUlogo} desc = "About us" />
-            </a>
-            <a href="#solutions">
+            </Link>
+            <Link to = "solutions" spy = {true} smooth = {true} offset = {20} duration = {700}>
               <Card logo = {solutions} desc = "Solutions" />
-            </a>
+            </Link>
             <Card logo = {careers} desc = "Careers" />
           </div>
           <div className = "single-line">
-            <Card logo = {team} desc = "Team" />
+            <Link to = "team" spy = {true} smooth = {true} offset = {-70} duration = {700}>
+              <Card logo = {team} desc = "Team" />
+            </Link>
             <Card logo = {blogs} desc = "Blog" />
-            <a href="#contact-us">
+            <Link to = "contact-us" spy = {true} smooth = {true} offset = {-80} duration = {700}>
               <Card logo = {contactus} desc = "Contact Us" />
-            </a>
+            </Link>
           </div>
           <div className = 'hero-tag'>
             <p>
