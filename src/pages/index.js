@@ -1,3 +1,7 @@
 export {default as Home} from './Home'
 export {default as Solutions} from './Solutions'
 export {default as Team} from './Team/TeamSection'
+export {default as Business} from './BusinessConsulting/BusinessConsulting'
+export {default as Careers} from './Careers/Careers'
+export {default as Digital} from './DigitalMarketing/DigitalMarketing'
+export {default as US} from './USRCM/USRCM'

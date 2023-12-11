@@ -22,7 +22,6 @@
     line-height: 18px;
     letter-spacing: 1px;
     text-transform: uppercase;
-
     margin-bottom: 40px;
 }
 
@@ -50,3 +49,28 @@
     width: 800px;
 }
 
+
+
+@media screen and (max-width:1050px){
+    .Inno-img{
+     
+        width: 32vw;
+    }
+    .Inno-title{
+        font-size: 7vw;
+        
+      
+    }
+    .Inno-tag{
+        
+        line-height: 6vw;
+        font-size: 5vw;
+        width: 90vw;
+    }
+    .Inno-desc{
+        width: 90vw;
+        line-height: 6vw;
+        font-size: 4vw;
+    }
+    
+}

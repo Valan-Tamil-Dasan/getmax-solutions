@@ -9,9 +9,9 @@ const Solutions = () => {
     <div>
         <NavBar/>
         <SolutionsHero/>
-        <Innovation/>
+         <Innovation/>
         <SHRC/>
-        <Contact/>
+        <Contact/> 
 
     </div>
   )
