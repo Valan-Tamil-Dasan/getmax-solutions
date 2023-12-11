@@ -9,6 +9,7 @@ import './SHRC.css'
 
 const SHRC = () => {
   return (
+    
     <div className='Solutionsall-container'>
         <div className='S-hrc'>
             <div className='SHRC-top'>
@@ -24,7 +25,7 @@ const SHRC = () => {
                     </div>
                 </div>
                 <div className='SHRC-center'>
-                    <img src={RCM} />
+                    <img src={RCM} className='SHRC-center' />
                 </div>
                 <div className='SHRC-right'>
                     <div className='SHRC-box'><p className='SRHC-box-text'>Precision and prosperity in redefined healthcare finances.</p></div>
@@ -41,7 +42,7 @@ const SHRC = () => {
 
 
 
-        <div className='S-digital-growth'>
+       <div className='S-digital-growth'>
             
         <div className='Sdg-top'>
                 <div className='Sdg-left'>
@@ -112,7 +113,7 @@ const SHRC = () => {
         </div>
 
         
-        <div className='S-business'>
+         <div className='S-business'>
             <div className='SHRC-top'>
             <div className='SHRC-right'>
                     <div className='SHRC-box'><p className='SRHC-box-text'>Foster HR RPO Mastery, Workforce Excellence, Success Unveiled.</p></div>
@@ -142,7 +143,7 @@ const SHRC = () => {
 
 
         
-        <div className='S-innovate'>
+     <div className='S-innovate'>
             <div className='inno-top'>
                 <div className='SHRC-left'>
                     <div className='SHRC-dash'></div>
@@ -159,7 +160,7 @@ const SHRC = () => {
 
             <div className='inno-center'>
                 <div className='inno-c-left'>
-                <img src={Inno} />
+                <img src={Inno} className='inno-c-left' />
                 </div>
                 <div className='inno-c-rigth'>
                 <div className='inno-right'>
@@ -169,7 +170,7 @@ const SHRC = () => {
                 </div>
             </div>
             <div className='inno-bottom'>Guided client enterprises through strategic transformations, optimizing operations and achieving sustainable growth, a hallmark of our dynamic business consulting services.</div>
-        </div>
+        </div> 
     </div>
   )
 }
