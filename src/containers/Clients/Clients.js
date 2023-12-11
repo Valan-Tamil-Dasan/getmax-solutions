@@ -151,6 +151,90 @@ const Carousel = () => {
 </div>
          
 </div>
+<div className='cl-cont-mob'>
+    <div>
+      
+      <div className='marq2'>
+      <Marquee  behaviour = "scroll"  className='mark2' >{/* use it to adjust height */}
+                  <div   className="marquee-item">
+                  <Card logo = {graphy}   />
+                  </div>
+                  <div  className="marquee-item">
+                  <Card logo = {jamoons}  />
+                  </div>
+                   <div  className="marquee-item">
+                  <Card logo = {cloons}  />
+                  </div>
+                  <div   className="marquee-item">
+                  <Card logo = {blessed} />
+                  </div>
+                  <div   className="marquee-item">
+                  <Card logo = {new1}  />
+                  </div>
+
+        
+              </Marquee></div>
+    </div>
+    <div className='marq3'>
+    <Marquee  behaviour = "scroll"  className='mark2'>{/* use it to adjust height */}
+
+<div   className="marquee-item">
+<Card logo = {culti}  />
+</div>
+<div  className="marquee-item">
+<Card logo = {timespro}  />
+</div>
+ <div  className="marquee-item">
+<Card logo = {tessolve}  />
+</div>
+<div   className="marquee-item">
+<Card logo = {amazon}  />
+</div>
+
+
+
+</Marquee>
+
+    </div>
+    <div className='marq4'>
+    <Marquee  behaviour = "scroll"  className='mark2'>{/* use it to adjust height */}
+
+<div   className="marquee-item">
+<Card logo = {koshys}  />
+</div>
+<div  className="marquee-item">
+<Card logo = {meraki}  />
+</div>
+ <div  className="marquee-item">
+<Card logo = {cloons} />
+</div>
+<div   className="marquee-item">
+<Card logo = {marina}  />
+</div>
+
+
+
+</Marquee>
+    </div>
+    <div className='marq5'><Marquee  behaviour = "scroll"  className='mark2'>{/* use it to adjust height */}
+
+<div   className="marquee-item">
+<Card logo = {koshys}  />
+</div>
+<div  className="marquee-item">
+<Card logo = {sa}  />
+</div>
+ <div  className="marquee-item">
+<Card logo = {symbiosis}/>
+</div>
+<div   className="marquee-item">
+<Card logo = {satya}  />
+</div>
+
+
+
+</Marquee></div>
+</div>
 </>
   );
 };
