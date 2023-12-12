@@ -2,7 +2,10 @@ import './Contact.css';
 import image1 from '../../assets/image1.png';
 import image2 from '../../assets/image2.jpg';
 import arrow from '../../assets/arrow.png';
-import { SocialIcon } from 'react-social-icons'
+import insta from '../../assets/instapur.svg'
+import linked from '../../assets/inpur.svg'
+import fb from '../../assets/fbpur.svg'
+import twitter from '../../assets/twitterpur.svg'
 
 
 function Contact() {
@@ -19,11 +22,11 @@ function Contact() {
                     <img src={image1} />
                     <p>
                     </p>
-                    <p>
+                    <p className='text1'>
                         In a world of constant evolution, our commitment is unwavering – to innovate, inspire, and propel businesses into a future where success knows no limits. Together, let's shape excellence and redefine what's possible.
                         <br />
                         <br />
-                        - Yuvaraj
+                        - <b>Yuvaraj</b>
                     </p>
                     <div className='div8'>
                         <img src={image2} className='image' id='image1st' />
@@ -44,7 +47,7 @@ function Contact() {
                         <p>
                             Email
                         </p>
-                        <input type='email' placeholder='Enter your email' />
+                        <input type='email' placeholder='Enter your email' className='message'/>
                         <p className='msg'>
                             Message
                         </p>
@@ -75,17 +78,17 @@ function Contact() {
                     <p>
                         Support
                     </p>
-                    <SocialIcon className='smicon' network='instagram' href='' />
-                    <SocialIcon className='smicon' network='twitter' href='' />
-                    <SocialIcon className='smicon' network='linkedin' href='' />
-                    <SocialIcon className='smicon' network='email' href='' />
-
+                    <img src = {insta} className='smicon'  />
+                    <img src = {linked} className='smicon'  />
+                    <img src = {fb} className='smicon'  />
+                    <img src = {twitter} className='smicon'  />
+               
                     <p>
                         <a href='' className='ar'>About</a>
-                        <br />
+                        </p><p>
                         <a href=''>Contact Us</a>
                     </p>
-                    <p>Terms and Conditionds &emsp;&emsp;&emsp; Privacy policy</p>
+                    <p>Terms and Conditionds </p><p> Privacy policy</p>
                 </div>
             </div>
         </div>

@@ -16,18 +16,40 @@
     width: 40%;
     color: #263238;
 }
+.div4 p{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 10px;
+}
 
 .div4 {
     background-color: #222938;
-    margin-top: 5%;
+    margin-top: 10%;
     width: 40%;
-    height: 100%;
+    height: 650px;
     border-radius: 20px;
+    color: #FFF;
+
+
+}
+    
+.div4 h3{
+    text-align: center;
+font-family: Inter;
+font-size: 37.895px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 .image {
-    width: 7vb;
-    height: 100%;
+    width: 70px;
+    
     margin-left: 5%;
     border-radius: 50%;
 }
@@ -40,6 +62,7 @@
     display: flex;
     width: 150%;
     height: 10%;
+    
 }
 
 .div9 {
@@ -50,8 +73,14 @@
 .imgtxt {
     margin-left: 8%;
     margin-top: 2%;
-    font-weight: normal;
-    font-size: 14px;
+  
+    color: #263238;
+
+    font-family: Inter;
+    font-size: 18.671px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.119px;
 }
 
 #text1st {
@@ -83,6 +112,7 @@ form input {
 
 .message {
     height: 6vh;
+    border: none;
 }
 
 .msg {
@@ -90,12 +120,21 @@ form input {
 }
 
 .submit {
+    border: none;
     margin-top: 10%;
     width: 70%;
     height: 5vh;
     margin-left: 15%;
-    border-radius: 5px;
-    background-color: #6020BD;
+    color: white;
+    color: #FFF;
+
+font-family: Inter;
+font-size: 16.597px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    border-radius: 10.373px;
+    background: #6020BD;
     margin-bottom: 15%;
 }
 
@@ -106,14 +145,23 @@ form input {
 
 .div3 .text1 {
     margin-top: 10%;
+    color: #263238;
+font-family: Inter;
+font-size: 18.671px;
+font-style: normal;
+font-weight: 500;
+line-height: 31.119px;
+margin-bottom: 10%;
 }
 
 .label {
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(to left, rgb(129.4, 102.93, 187.17) 65%, rgb(11, 99, 229));
-    background-clip: text;
-    color: transparent;
+    color: #6020BD;
+    font-family: Inter;
+    font-size: 50.527px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.159px; /* 125% */
+    letter-spacing: -1.011px;
 }
 
 .div5 {
@@ -127,16 +175,31 @@ form input {
 }
 
 .div6 h1 {
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(to left, rgb(129.4, 102.93, 187.17) 65%, rgb(11, 99, 229));
-    background-clip: text;
-    color: transparent;
+    background: linear-gradient(90deg, #6020BD 15.44%, #9D59FF 63.68%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
     font-size: 40px;
+    font-family: Inter;
+font-size: 50.527px;
+font-style: normal;
+font-weight: 700;
+line-height: 63.159px; /* 125% */
+letter-spacing: -1.011px;
+margin-bottom : 30px
 }
 
 .text2 {
     color: #263238;
+   
+color: #263238;
+
+font-family: Inter;
+font-size: 18.671px;
+font-style: normal;
+font-weight: 500;
+line-height: 31.119px;
+margin-bottom: 30px; 
 }
 
 .mail {
@@ -153,10 +216,29 @@ form input {
     color: #263238;
 }
 
+.div7 p{
+
+    color: #263238;
+    padding: 10px;
+    font-family: Inter;
+    font-size: 18.671px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.119px;
+}
 .cr {
     margin-top: 5%;
     color: #6020bd;
     line-height: 150%;
+    color: #6020BD;
+
+font-family: Inter;
+font-size: 18.671px;
+font-style: normal;
+font-weight: 500;
+line-height: 31.119px;
+margin-top: 80px;
+margin-bottom: 80px
 }
 
 a {
@@ -176,9 +258,10 @@ a {
     height: 5vb;
     border: none;
     position: relative;
-    top: 1vh;
+    top: 2vh;
     left: -6vb;
     background-color: #6020BD;
+    
 }
 
 .arrow {
@@ -192,7 +275,7 @@ a {
 
 
 
-@media(max-width:700px) {
+@media(max-width:1050px) {
     .div1 {
         padding-top: 10%;
     }
@@ -223,15 +306,36 @@ a {
     .div8 {
         width: 100%;
     }
-
+    .div4 {
+       
+        height: 60vh;
+        margin-top:12vw;
+        
+    
+    
+    }
     .sub1 {
         position: relative;
         left: -6vb;
-        top: 1vh;
+        top: 2vh;
     }
 
     .imgtxt {
         margin: 2%;
+        
+color: #263238;
+font-family: Inter;
+font-size: 18.671px;
+font-style: normal;
+font-weight: 500;
+line-height: 31.119px;
     }
-
+    .div4 h3{
+        text-align: center;
+    font-family: Inter;
+    font-size: 6VW;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
 }
