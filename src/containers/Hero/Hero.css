@@ -21,32 +21,32 @@ body{
     display: flex;
     flex-direction: column;
     padding-left: 49px;
-    padding-top:130px;
+    padding-top:170px;
 }
 
 .hero-title-image{
-    width: 384px;
-    height: 284px;
+    width: 350px;
+   
 }
 
 .hero-tag{
     color: #42526B;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
-    margin-left: 50px;
+    text-align: center;
 }
 
 .hero-desc{
     color: #42526B;
     font-family: 'Inter','sans-serif';
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 41px;
+    margin-top: 60px;
     width: 600px;
     height: 146px;
 }

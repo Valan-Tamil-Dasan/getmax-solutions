@@ -121,7 +121,7 @@ const Hero = () => {
       
         <div className="text-container" ref={textRef}>
           <div className = 'hero-title-image'>
-            <img src={getMaxLogo} />
+            <img src={getMaxLogo} className = 'hero-title-image'/>
           </div>
           
           <div className = 'hero-desc'>

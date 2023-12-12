@@ -34,6 +34,7 @@
 .card-image{
     width: 150px;
     
+    
 
 }
 
@@ -42,8 +43,9 @@
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 26px;
+    margin-top: auto;
  
 }
 
