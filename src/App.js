@@ -1,5 +1,6 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';import {Home,Solutions, Team ,Business,Careers,Digital,US} from './pages'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {Home,Solutions, Team ,Business,Careers,Digital,US,Blogs} from './pages'
 
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -28,6 +29,7 @@ const App = () => {
             <Route path="/Solutions/digital-marketing" element={<Digital />} />
             <Route path="/Solutions/us-rcm" element={<US />} />
             <Route path="/Team" element={<Team />} />
+            <Route path="/Blogs" element={<Blogs />} />
       </Routes>
     </Router>
     </>

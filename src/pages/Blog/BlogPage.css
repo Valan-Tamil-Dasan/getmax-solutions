@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&family=Cardo&family=Inter:wght@300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.BlogMain{
+    height:fit-content;
+    padding-top: 150px;
+}
+
+.Blogfirst{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height:30vh;
+    text-align: center;
+}
+
+.BlogThought{
+    font-family: 'Cardo';
+    color:#7845d1;
+    font-size: 4.2rem;
+    font-weight: bolder;
+    word-spacing: 10px;
+}
+
+.BlogSubtitle{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.BlogSecond{
+    height:80vh;
+    margin-bottom: 80px;
+}
+
+.BlogMainPost{
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MainPostHeader{
+    height: 8%;
+}
+
+.MainPostPic{
+    height:68%;
+    background-color: black;
+}
+
+.mainPostFooter{
+    height:24%;
+    border: 0.8px #5f6977;
+    border-style: ridge;
+}
+
+.MainPostPic img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    height: 100%;
+}
+
+.MainPostDay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width:20%;
+    height:10%;
+    border: 0.8px #5f6977;
+    border-style: solid;
+    background-color:white;
+    z-index: 2;
+    font-size: small;
+    text-align: center;
+    letter-spacing: 6px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 550;
+}
+
+.Blogdet{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.BlogDate{
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    color:#cecece ;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.BlogHeading{
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 7px;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+.BlogDesc{
+   font-size: small;
+   font-weight: light;
+   color: rgba(0, 0, 0, 0.82);
+}
+
+.BlogThird{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:130vh;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.BlogFRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:45%;
+}
+
+.BlogSRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:45%;
+}
+
+.BlogCardMain{
+    border-right: 1.9px solid rgba(0, 0, 0, 0.527);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 0.8px solid #c4c9cf;
+    border-bottom: 0.8px solid #a9b1bc;
+    border-left: 0.8px solid #a8afb9;
+    height:100%;
+    width:48%;
+}
+
+.BlogPic{
+    height:100%;
+    width:43%;
+}
+
+.BlogDescription{
+    height: 100%;
+    width: 45%;
+    
+}
+
+.blank{
+    height: 100%;
+    width: 1%;
+
+}
+
+.BlogDescription .BlogDate{
+    margin-top: 5px;
+    margin-bottom: 17px;
+}
+
+.BlogDescription .BlogHeading {
+    margin-bottom: 17px;
+
+}
+
+.BlogDescription .BlogDesc{
+    margin-bottom: 7px;
+
+}
+
+.Blogactivity{
+    font-family: 'Inter', sans-serif;
+   font-size: 11px;
+   margin-bottom: 5px;
+}
+
+.BlogFourth{
+    height:40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BlogFourth button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left:40px ;
+    font-family: 'Inter', sans-serif;
+    background-color: #6020bd;
+    color: white;
+    border:none;
+}
+
+.BlogFifth{
+    height:40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.BlogMessage{
+    height: 100%;
+    width:50%;
+    font-family: 'Abhaya Libre', serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.BlogMessage h1{
+    font-size:40px;
+}
+
+.BlogNewsletter{
+    height: 100%;
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.BlogNewsletter input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+}
+
+.BlogFifth button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left:40px ;
+    font-family: 'Inter', sans-serif;
+    background-color: #6020bd;
+    color: white;
+    border:none;
+}
+
+@media(max-width: 693px){
+    .Blogfirst{
+        margin-bottom: 0px;
+    }
+    .BlogThought{
+        font-size: 2.7rem;
+        text-align: center;
+    }
+    .BlogSubtitle{
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    .BlogMainPost{
+        width: 100%;
+    }
+    .MainPostDay{
+        font-size: xx-small;
+    }
+    .BlogThird{
+        height: fit-content;
+        width: 100%;
+        gap: 30px;
+    }
+    .BlogFRow{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .BlogSRow{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .BlogCardMain{
+        width:100%;
+    }
+    .BlogFifth{
+        flex-direction: column;
+    }
+    .BlogMessage h1{
+        font-size: 26px;
+    }
+    .BlogFourth{
+        height: 20vh;
+    }
+    .BlogFifth button{
+        padding-right:36px;
+        padding-left:39px ;
+
+    }
+
+
+
+}
+
+
+
+
+
