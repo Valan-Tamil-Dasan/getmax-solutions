@@ -7,6 +7,7 @@ import {NavBar} from '../../components'
 // Import teamMembers from the separate data file
 import { teamMembers } from './teamData';
 import Team_img from './Assets/team-img2.png';
+import {Contact} from '../../containers'
 
 const TeamSection = () => {
   return (
@@ -48,6 +49,7 @@ const TeamSection = () => {
         ))}
       </div>
       </div>
+      <Contact/>
       </div>  
   );
 };

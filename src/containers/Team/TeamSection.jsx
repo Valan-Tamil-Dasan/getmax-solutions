@@ -6,6 +6,7 @@ import './TeamSection.css';
 
 // Import teamMembers from the separate data file
 import { teamMembers } from './teamData';
+import {Link} from 'react-router-dom'
 
 const TeamSection = () => {
   return (
@@ -29,7 +30,7 @@ const TeamSection = () => {
             ))}
           </div>
           <p className="Load">
-            <a href="/">Load more</a>
+          <Link to="/Team">Load more</Link>
           </p>
         </div>
       </div>
@@ -51,12 +52,12 @@ const TeamSection = () => {
             ))}
           </div>
           <p className="Load">
-            <a href="/">Load more</a>
+            <Link to="/Team">Load more</Link>
           </p>
         </div>
 
 
-      </div>
+      </div>     
     </div>
   );
 };
