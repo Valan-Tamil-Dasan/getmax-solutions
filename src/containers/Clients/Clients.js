@@ -34,7 +34,7 @@ const Carousel = () => {
 <div className="clients-section-container">
 <div className="cli-col">
  <div className='cli-colHeader'>
-  <h3 className="cli-head2">
+  <h3 className="cli-head3">
     Technology Partners 
   </h3>
  </div>
@@ -149,94 +149,111 @@ const Carousel = () => {
 
 </div>
 </div>
+
          
 </div>
-<div className='cl-cont-mob'>
-    <div>
-      
-      <div className='marq2'>
-      <Marquee  behaviour = "scroll"  className='mark2' >{/* use it to adjust height */}
-                  <div   className="marquee-item">
-                  <Card logo = {graphy}   />
-                  </div>
-                  <div  className="marquee-item">
-                  <Card logo = {jamoons}  />
-                  </div>
-                   <div  className="marquee-item">
-                  <Card logo = {cloons}  />
-                  </div>
-                  <div   className="marquee-item">
-                  <Card logo = {blessed} />
-                  </div>
-                  <div   className="marquee-item">
-                  <Card logo = {new1}  />
-                  </div>
+<div className='cli-cont-mob'>
+   
+  <div className='cli-marq-pair'>
+
+    <div className='cli-row-one'>
+    
+      <div className='marq-mob' >
+      <Marquee direction='right' behaviour = "scroll"  className='mark-mob' >{/* use it to adjust height */}
+                    <div   className="marquee-item">
+                    <Card logo = {graphy}   />
+                    </div>
+                    <div  className="marquee-item">
+                    <Card logo = {jamoons}  />
+                    </div>
+                     <div  className="marquee-item">
+                    <Card logo = {cloons}  />
+                    </div>
+                    <div   className="marquee-item">
+                    <Card logo = {blessed} />
+                    </div>
+                    <div   className="marquee-item">
+                    <Card logo = {new1}  />
+                    </div>
+    
+                </Marquee>
+      </div>
+    </div>
+  </div>
+  <div className='cli-row'>
+    <div className='marq-mob' >
+    <Marquee direction='left' behaviour = "scroll"  className='mark-mob' >{/* use it to adjust height */}
+    
+
+        <div   className="marquee-item">
+        <Card logo = {koshys}  />
+        </div>
+        <div  className="marquee-item">
+        <Card logo = {sa}  />
+        </div>
+        <div  className="marquee-item">
+        <Card logo = {symbiosis}/>
+        </div>
+        <div   className="marquee-item">
+        <Card logo = {satya}  />
+        </div>
+
+
+
+
 
         
-              </Marquee></div>
+              </Marquee>
     </div>
-    <div className='marq3'>
-    <Marquee  behaviour = "scroll"  className='mark2'>{/* use it to adjust height */}
+  </div>
+  <div className='cli-row'>
+    <div className='marq-mob' >
+    <Marquee direction='right' behaviour = "scroll"  className='mark-mob' >{/* use it to adjust height */}
+                  
+          <div   className="marquee-item">
+          <Card logo = {koshys}  />
+          </div>
+          <div  className="marquee-item">
+          <Card logo = {meraki}  />
+          </div>
+           <div  className="marquee-item">
+          <Card logo = {cloons} />
+          </div>
+          <div   className="marquee-item">
+          <Card logo = {marina}  />
+          </div>
 
-<div   className="marquee-item">
-<Card logo = {culti}  />
-</div>
-<div  className="marquee-item">
-<Card logo = {timespro}  />
-</div>
- <div  className="marquee-item">
-<Card logo = {tessolve}  />
-</div>
-<div   className="marquee-item">
-<Card logo = {amazon}  />
-</div>
-
-
-
-</Marquee>
-
+        
+              </Marquee>
     </div>
-    <div className='marq4'>
-    <Marquee  behaviour = "scroll"  className='mark2'>{/* use it to adjust height */}
+  </div> <div className='cli-row'>
+    <div className='marq-mob' >
+    <Marquee direction='left' behaviour = "scroll"  className='mark-mob' >{/* use it to adjust height */}
+    
+    <div   className="marquee-item">
+          <Card logo = {culti}  />
+          </div>
+          <div  className="marquee-item">
+          <Card logo = {timespro}  />
+          </div>
+           <div  className="marquee-item">
+          <Card logo = {tessolve}  />
+          </div>
+          <div   className="marquee-item">
+          <Card logo = {amazon}  />
+          </div>
 
-<div   className="marquee-item">
-<Card logo = {koshys}  />
-</div>
-<div  className="marquee-item">
-<Card logo = {meraki}  />
-</div>
- <div  className="marquee-item">
-<Card logo = {cloons} />
-</div>
-<div   className="marquee-item">
-<Card logo = {marina}  />
-</div>
-
-
-
-</Marquee>
+        
+              </Marquee>
     </div>
-    <div className='marq5'><Marquee  behaviour = "scroll"  className='mark2'>{/* use it to adjust height */}
-
-<div   className="marquee-item">
-<Card logo = {koshys}  />
-</div>
-<div  className="marquee-item">
-<Card logo = {sa}  />
-</div>
- <div  className="marquee-item">
-<Card logo = {symbiosis}/>
-</div>
-<div   className="marquee-item">
-<Card logo = {satya}  />
+  </div>
+  
 </div>
 
-
-
-</Marquee></div>
-</div>
 </>
   );
 };
 
 export default Carousel;
+
+
