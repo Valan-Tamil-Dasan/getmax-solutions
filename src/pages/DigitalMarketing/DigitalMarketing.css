@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0%;
+    font-family: 'Inter';
+    height: fit-content;
+}
+.DMH-main{
+    background-color:#F5F0FF ;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.DMH-hr{
+    height:33%;
+    width:100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.DMH-hr div{
+    background-color: #8253d9;
+    width: 4%;
+    height: 5%;
+}
+.DMH-heading{
+    height:33%;
+    font-size: x-large;
+    font-weight: 300;
+
+}
+.DMH-subtitle{
+    height:33%;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.DMR-main{
+    height:80vh;
+    background-color: #F5F0FF;
+    display: flex;
+}
+.DMR-content{
+    height:100%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.DMR-pic{
+    height:100%;
+    width:50%;
+}
+.DMR-pic img{
+    height:100%;
+    width:100%;
+}
+.DMR-dummy{
+    height:5vh;
+    background-color: #F5F0FF;
+}
+.DMR-heading{
+    height:fit-content;
+    width:70%;
+    font-size: x-large;
+    font-weight: 500;
+}
+.DMR-desc{
+    margin-top: 25px;
+    height:40%;
+    width:70%;
+    font-weight: 300;
+    line-height: 145%;
+}
+.DML-main{
+    height:80vh;
+    background-color: #F5F0FF;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.DMFP-main{
+    height:150vh;
+    background-color: #ffffff;
+}
+.DMFP-first{
+    height:50%;
+    width:100%;
+    display: flex;
+}
+.DMFP-second{
+    height:50%;
+    width:100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.DMFP-content{
+    height:100%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.DMFP-pic{
+    height:100%;
+    width:50%;
+}
+.DMFP-pic img{
+    height:100%;
+    width:85%;
+    margin-right: 20px;
+}
+.DMFP-heading{
+    height:30%;
+    width: 70%;
+    font-size: 46px ;
+    font-weight: bold;
+    margin-left: 140px;
+}
+.DMFP-subtitle{
+    height:15%;
+    width: 70%;
+    font-size:26px;
+    font-weight: 300;
+    margin-left: 140px;
+}
+.DMFP-buttons{
+    margin-top: 40px;
+    height:15%;
+    width: 70%;
+    margin-left: 140px;
+}
+.DMFP-buttons .button1{
+    background-color: #6020BD;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    padding: 13px 22px;
+    font-weight: 300;
+    font-size: x-small;
+}
+.DMFP-buttons .button2{
+    background-color: #ffffff;
+    border: 1px solid #6020BD;
+    margin-left: 58px;
+    border-radius: 50px;
+    color:#6020BD;
+    padding: 13px 20px;
+    font-weight: 300;
+    font-size: x-small;
+}
+.DMFP-textbox{
+    background-color:#ffffff;
+    height:75%;
+    width:70%;
+    margin-bottom: 60px;
+    display: flex;
+}
+.DMFP-pic1{
+    width:42%;
+    height:100%;
+}
+.DMFP-pic1 img{
+    height: 100%;
+    width: 100%;
+}
+.DMFP-content1{
+    width:58%;
+    height:100%;
+    background-color:#F5F0FF;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.DMFP-title{
+    height:20%;
+    width:70%;
+    font-size: large;
+    font-weight: bold;
+    margin-right: 35px;
+}
+.DMFP-subbtitle{
+    height:60%;
+    width:70%;
+    font-size: x-small;
+    font-weight: 400;
+    margin-right: 35px;
+    line-height: 160%;
+}
+.DMH2-main{
+    background-color:#FFFFFF ;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.DMH2-heading{
+    height:33%;
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+.DMH2-subtitle{
+    height:33%;
+    font-size: x-large;
+    font-weight: 300;
+}
+.DMH-dummy{
+    height:9vh;
+    background-color: #FFFFFF;
+}
+.SG-main{
+    height:130vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SG-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    background-color: #FFFFFF;
+    height:auto;
+    width:auto;
+    gap:15px
+}
+.SG-card{
+   background-image: linear-gradient(180deg, #431e80 0%, #6a2ec8 35%, #9161f5 100%);
+   height:150px;
+   width:150px;
+   border-radius: 25px;
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.SGC-logo{
+    height:45%;
+    width:45%;
+    border-radius: 50%;
+    background-color:#292930 ;
+}
+.SGC-title{
+    height:20%;
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: xx-small;
+    font-weight: 300;
+}
+.SGC-logo img{
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+    background-color:#292930 ;
+}
+.V-main{
+    height:105vh;
+    background-color: #F7F7FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.V-first{
+    height:30%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.V-second{
+    height:70%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.V-logo{
+    height:40%;
+    width:5%;
+    border-radius: 50%;
+}
+.V-title{
+    margin-top: 10px;
+    height:10%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+    font-weight: 500;
+}
+.V-subtitle{
+    height:50%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.V-logo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.V-title b{
+    color:yellow
+}
+.V-card1{
+    height:100%;
+    width:17%;
+    background-color: #33333a;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.V-card2{
+    height:90%;
+    width:17%;
+    background-color: #33333a;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.V-pic{
+    height:21%;
+    width:40%;
+    background-color:yellow;
+    border-radius: 50%;
+
+}
+.V-heading{
+    height:11%;
+    width:100%;
+    color:white;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+.V-desc{
+    height:45%;
+    width:90%;
+    color: white;
+    font-size: x-small;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    line-height: 140%;
+}
+.V-line{
+    height:10%;
+    width:20%;
+    color: white;
+}
+.V-line hr{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.V-dummy{
+    height: 9vh;
+    background-color:#F7F7FA ;
+}
+.V-pic img{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+}
+@media(max-width:1000px){
+    .DMH-dummy{
+        display: block;
+    }
+    .DMFP-main{
+        height:60vh;
+    }
+    .DMH-main{
+        height:5vh;
+    }
+    .DMR-main{
+        height:20vh;
+    }
+    .DML-main{
+        height:20vh;
+    }
+    .DMH2-main{
+        height:20vh;
+    }
+    .SG-main{
+        height:30vh;
+    }
+    .V-main{
+        height:30vh;
+    }
+    .DMFP-heading{
+        font-size: 1rem;
+        margin-left: 30px;
+    }
+    .DMFP-subtitle{
+        font-size: 0.7rem;
+        margin-left: 30px;
+    }
+    .DMFP-buttons{
+        margin-left: 30px;
+    }
+    .DMFP-buttons .button1{
+        padding: 6px 12px;
+        font-size: 0.2rem;
+    }
+    .DMFP-buttons .button2{
+        padding: 6px 12px;
+        font-size: 0.2rem;
+        margin-left: 28px;
+    }
+    .DMFP-title{
+        font-size: 0.5rem;
+    }
+    .DMFP-subbtitle{
+        font-size: 0.28rem;
+    }
+    .DMH-heading{
+        font-size:0.5rem
+    }
+    .DMH-subtitle{
+        font-size: 1rem;
+    }
+    .DMR-heading{
+        font-size: 0.6rem;
+    }
+    .DMR-desc{
+        font-size:0.4rem
+    }
+    .SG-card{
+        height:70px;
+        width:70px;
+    }
+    .DMH2-heading{
+        font-size:0.5rem
+    }
+    .DMH2-subtitle{
+        font-size: 1rem;
+    }
+    .SGC-title{
+        font-size:0.3rem
+    }
+    .V-heading{
+        font-size: 0.4rem;
+    }
+    .V-desc{
+        font-size: 0.2rem;
+    }
+    .V-subtitle{
+        font-size: 0.7rem;
+    }
+    .DMFP-pic img{
+        margin-right: 0px;
+        width:100%;
+    }
+
+    
+}
