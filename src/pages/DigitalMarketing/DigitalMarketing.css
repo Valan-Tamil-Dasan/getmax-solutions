@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
-*{
+.DigitalMarketingMain{
     margin: 0px;
-    padding: 0%;
+    padding: 0px;
     font-family: 'Inter';
     height: fit-content;
 }

@@ -16,6 +16,7 @@ import "./DigitalMarketing.css";
 
 export default function DigitalMarketing(){
     return(<>
+    <div className="DigitalMarketingMain">
     <DigitalMarketingFP/>
     <div className="DMR-dummy"></div>
     <DigitalMarketingHeader/>
@@ -63,5 +64,6 @@ export default function DigitalMarketing(){
     <div className="V-dummy"></div>
     <Values/>
     <div className="V-dummy"></div>
+    </div>
     </>)
 }
