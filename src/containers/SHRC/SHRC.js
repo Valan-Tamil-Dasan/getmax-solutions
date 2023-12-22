@@ -6,6 +6,7 @@ import scar from '../../assets/scar.svg'
 import business from '../../assets/asdgfasdffds.svg'
 import Inno from '../../assets/nigg.svg'
 import './SHRC.css'
+import {Link} from 'react-router-dom'
 
 const SHRC = () => {
   return (
@@ -17,12 +18,14 @@ const SHRC = () => {
                     <div className='SHRC-dash'></div>
                     <div className='SHRC-title'>Revolutionizing Healthcare Revenue Cycle</div>
                     <div className='SHRC-desc'>Optimize revenue cycles in U.S. healthcare for efficiency, accuracy, and profitability</div>
-                    <div className='SHRC-read'>
-                        <div>Read more</div>
-                        <div>
-                            <img src={Arrow} className='shrc-arrow' />
+                    <Link to = '/Solutions/us-rcm'>
+                        <div className='SHRC-read'>
+                            <div>Read more</div>
+                            <div>
+                                <img src={Arrow} className='shrc-arrow' />
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 </div>
                 <div className='SHRC-center'>
                     <img src={RCM} className='SHRC-center' />
@@ -59,14 +62,14 @@ const SHRC = () => {
                         <div className='SHRC-title'>Driving Digital Growth with Precision</div>
 
                         <div className='SHRC-desc'>Strategic digital solutions fueling growth, engagement, and success for businesses with innovative precision.</div>
-                        <div className='SHRC-read'>
-                            <div>Read more</div>
-
-                            <div>
-                                <img src={Arrow} className='shrc-arrow' />
+                        <Link to = "/Solutions/digital-marketing">
+                            <div className='SHRC-read'>
+                                <div>Read more</div>
+                                <div>
+                                    <img src={Arrow} className='shrc-arrow' />
+                                </div>
                             </div>
-
-                        </div>
+                        </Link>
                 </div>
                 
                 <div className='Sdg-right dg-img'>
@@ -91,12 +94,14 @@ const SHRC = () => {
                 <div className='SHRC-dash'></div>
                     <div className='Scar-title '>Empowering Careers, Fueling Futures</div>
                     <div className='Scar-desc'>Transformative training and placement services sculpting careers for lasting success + industry impact</div>
-                    <div className='SHRC-read'>
-                        <div>Read more</div>
-                        <div>
-                            <img src={Arrow} className='shrc-arrow' />
+                    <Link to = "/Solutions/empowering-careers">
+                        <div className='SHRC-read'>
+                            <div>Read more</div>
+                            <div>
+                                <img src={Arrow} className='shrc-arrow' />
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 </div>
                 <div className='car-img'>
                 <img src={scar} className='car-img' />
@@ -120,18 +125,20 @@ const SHRC = () => {
                     <div className='SHRC-box'><p className='SRHC-box-text'>Strategic sourcing Talent, Workforce Excellence, Success Unveiled.</p></div>
                 </div>
                 <div className='business-center'>
-                <img src={business}className='business-center' />
+                <img src={business} className='business-center' />
                 </div>
                 <div className='SHRC-left'>
                     <div className='SHRC-dash'></div>
-                    <div className='SHRC-title'>Revolutionizing Healthcare Revenue Cycle</div>
-                    <div className='SHRC-desc'>Optimize revenue cycles in U.S. healthcare for efficiency, accuracy, and profitability</div>
-                    <div className='SHRC-read'>
-                        <div>Read more</div>
-                        <div>
-                            <img src={Arrow} className='shrc-arrow' />
+                    <div className='SHRC-title'>Talent Unleashed, Businesses Transformed</div>
+                    <div className='SHRC-desc'>Strategic HR RPO elevating businesses with tailored talent acquisition, ensuring excellence in workforce dynamics</div>
+                    <Link to = "/Solutions/business-consulting">
+                        <div className='SHRC-read'>
+                            <div>Read more</div>
+                            <div>
+                                <img src={Arrow} className='shrc-arrow' />
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </div>
             <div className='Scar-bottom'>
@@ -147,8 +154,8 @@ const SHRC = () => {
             <div className='inno-top'>
                 <div className='SHRC-left'>
                     <div className='SHRC-dash'></div>
-                    <div className='Scar-title '>Revolutionizing Healthcare Revenue Cycle</div>
-                    <div className='Scar-desc'>Optimize revenue cycles in U.S. healthcare for efficiency, accuracy, and profitability</div>
+                    <div className='Scar-title '>Innovate, Strategize, Excel Together</div>
+                    <div className='Scar-desc'>Strategic business consulting for transformative solutions, reshaping industries and driving sustained success collaboratively</div>
                     <div className='SHRC-read'>
                         <div>Read more</div>
                         <div>

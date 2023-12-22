@@ -5,7 +5,7 @@ import SH2 from '../../assets/SH2.svg'
 import SH3 from '../../assets/SH3.svg'
 import SH4 from '../../assets/SH4.svg'
 import { NavBar } from '../../components'
-
+import {Link as ScrollLink} from 'react-scroll'
 const SolutionsHero = () => {
     
 const ContactUS = ()=>{
@@ -44,7 +44,7 @@ const ContactUS = ()=>{
             <div className='SHleft'>
                 <div ><p className='SHtitle'>Creative Solutions</p></div>
                 <div ><p className='SHdesc'>Unlock success with <b> our tailored solutions </b>in healthcare, digital marketing, HR, training, and business consulting. Your growth journey, redefined and powered by innovation.</p></div>
-                <div className='SHcontact-us'><ContactUS/></div>
+                <ScrollLink to = "contact-us" spy = {true} smooth = {true} offset = {-81} duration = {700}><div className='SHcontact-us'><ContactUS/></div></ScrollLink>
             </div>
             <div className='SHright'>
                 <div className='SHrightcol1'>

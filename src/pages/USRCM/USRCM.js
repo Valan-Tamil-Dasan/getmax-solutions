@@ -1,8 +1,14 @@
 import React from 'react'
-
+import Health from './healthcare'
+import { NavBar } from '../../components'
+import { Contact } from '../../containers'
 const USRCM = () => {
   return (
-    <div>USRCM</div>
+    <div>
+        <NavBar/>
+        <Health/>
+        <Contact/>
+    </div>
   )
 }
 

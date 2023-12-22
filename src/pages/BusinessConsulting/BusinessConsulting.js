@@ -1,8 +1,15 @@
 import React from 'react'
+import Empcar from './components/Empcar'
+import { NavBar } from '../../components'
+import { Contact } from '../../containers'
 
 const BusinessConsulting = () => {
   return (
-    <div>BusinessConsulting</div>
+   <div>
+          <NavBar/>
+          <Empcar/>
+          <Contact/>
+   </div>
   )
 }
 

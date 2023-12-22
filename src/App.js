@@ -24,10 +24,12 @@ const App = () => {
       <ScrollToTop />
       <Routes>
       <Route path="/Solutions" element={<Solutions />} />
-            <Route path="/" element={<Home />}/> <Route path="/Solutions/business-consulting" element={<Business />} />
+            <Route path="/" element={<Home />}/>
+             <Route path="/Solutions/empowering-careers" element={<Business />} />
             <Route path="/Careers" element={<Careers />} />
             <Route path="/Solutions/digital-marketing" element={<Digital />} />
             <Route path="/Solutions/us-rcm" element={<US />} />
+            {/* <Route path= "/Solutions/business-consulting" element = {<BC/>} */}
             <Route path="/Team" element={<Team />} />
             <Route path="/Blogs" element={<Blogs />} />
       </Routes>

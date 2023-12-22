@@ -1,0 +1,200 @@
+.careers-title{
+    color: #6020BD;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 48% */
+    letter-spacing: 0.5px;
+    margin-left: 7vw;
+    margin-bottom: 90px;
+}
+
+.carrers-desc{
+
+   
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 30px 60px 0px rgba(0, 26, 255, 0.10);
+        display: flex;
+        width: 22vw;
+        padding: 16px;
+        gap: 1vw;
+        padding-left: 2.4vw;
+   
+    
+
+    }
+
+.Careers-dynamic-cont{
+    background: #F6F1FF;
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+.carrers-postings{
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    width: 100vw;
+    grid-row-gap: 50px;
+    grid-column-gap:50px;   
+    justify-content: center;
+  
+    
+
+}
+
+
+.careers-desc-num{
+    color: rgba(0, 0, 0, 0.75);
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.careers-desc-job{
+    color: rgba(0, 0, 0, 0.50);
+    font-family:Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+
+}
+
+.careers-desc-row{
+    display: grid;
+    grid-template-columns: repeat(3,0fr);
+    width: 100vw;
+    grid-row-gap: 70px;
+    grid-column-gap:70px;   
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.careers-hero-title{
+    color: #263238;
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: 0.5px;
+    width : 500px
+}
+.careers-hero-desc{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 38.5px; /* 160.417% */
+    letter-spacing: 0.5px;
+    width: 570px;
+}
+.careers-main-hero{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap : 70px;
+    padding-top: 35px;
+}
+.carees-main-left{
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+}
+@media screen and (max-width:1050px) {
+    .carrers-postings{
+       
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+        
+    
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .careers-desc-row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px
+    }
+    .carrers-desc{     
+        width: 70vw;
+        gap : 20px;
+        padding-left: 20px;
+    }
+    .careers-title{
+        color: #6020BD;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px; 
+        letter-spacing: 0.5px;
+        margin-left: 0;
+        margin-bottom: 90px;
+        text-align: center;
+    }
+    .careers-desc-num{
+      font-size: 32px;
+    }
+    
+    .careers-desc-job{
+        
+        font-size: 18px;
+        
+    
+    }.careers-hero-title{
+        color: #263238;
+        font-family: Inter;
+        font-size: 8vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 10vw; 
+        letter-spacing: 0.5px;
+        width : 90vw;
+        text-align: center;
+        margin-bottom: 30px;
+        }
+    .careers-hero-desc{
+        color: #000;
+        font-family: Inter;
+        font-size: 5vw;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 8vw; 
+        letter-spacing: 0.5px;
+        width: 90vw;
+        text-align: center;
+    }
+    .careers-main-hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap : 0px;
+        padding-top:100px;
+        height: 180vw;
+    }
+    .carees-main-left{
+        display: flex;
+        flex-direction: column;
+        gap:5vw;
+        margin-bottom: 8vw;
+    }    
+    .careers-hero-img{
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}

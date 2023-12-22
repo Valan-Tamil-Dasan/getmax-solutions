@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Fredericka+the+Great&family=Inter&family=Open+Sans&family=Orbitron&family=Poppins&display=swap');
+
+.car-card-cont{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 30px 60px 0px rgba(0, 26, 255, 0.10);
+    display: flex;
+    width: 23vw;
+    padding: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vw;
+}
+
+.car-card-top{
+    display: flex;
+    align-items: center; 
+}
+
+.car-card-title{
+    color: #263238;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 22vw;
+    
+}
+
+.car-card-img{
+  margin-right: 1.3vw;
+  width: 1.2vw;
+}
+.car-card-comp{
+    color: rgba(0, 0, 0, 0.60);
+
+font-family: Poppins;
+font-size: 1vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.car-card-desc{
+    color: rgba(0, 0, 0, 0.60);
+
+font-family: Poppins;
+font-size: 1vw;
+font-style: normal;
+font-weight: 400;
+line-height: 1.8vw;
+
+}
+
+.car-card-line{
+    background: #263238;
+    height: 1px;
+    align-self: stretch;
+    margin-top: auto;
+}
+
+.car-card-price{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0.9vw;
+    
+}
+
+.car-card-apply{
+    display: flex;
+    padding: 5px 15px;
+    align-items: center;
+    justify-content: center;
+    border-radius:1vw;
+    background: rgba(0, 0, 0, 0.07);
+    
+
+
+}
+.car-card-apply-text{
+    text-align: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.car-card-bottom{
+    display: flex;
+    width: 22vw;
+    gap: 11vw;
+  
+}
+
+
+@media screen and (max-width:1050px) {
+    .car-card-cont{
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 30px 60px 0px rgba(0, 26, 255, 0.10);
+        display: flex;
+        width: 70vw;
+        padding: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5vw;
+    }.car-card-top{
+        display: flex;
+        align-items: center; 
+    }
+    
+    .car-card-title{
+        color: #263238;
+        font-family: 'Poppins', sans-serif;
+        font-size:4vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 60vw;
+        
+    }
+    
+    .car-card-img{
+      margin-right: 3vw;
+      width: 4vw;
+    }
+    .car-card-comp{
+        color: rgba(0, 0, 0, 0.60);
+    
+    font-family: Poppins;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+    
+    .car-card-desc{
+        color: rgba(0, 0, 0, 0.60);
+    
+    font-family: Poppins;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    }
+    
+    .car-card-line{
+        background: #263238;
+        height: 1px;
+        align-self: stretch;
+        margin-top: auto;
+    }
+    
+    .car-card-price{
+        color: #000;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        
+    }
+    
+    .car-card-apply{
+        display: flex;
+        padding: 5px 15px;
+        align-items: center;
+        justify-content: center;
+        border-radius:1vw;
+        background: rgba(0, 0, 0, 0.07);
+        
+    
+    
+    }
+    .car-card-apply-text{
+        text-align: center;
+        color: #000;
+        font-family: Poppins;
+        font-size: 2vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .car-card-bottom{
+        display: flex;
+        width: 80vw;
+        gap: 40vw;
+      
+    }
+}
